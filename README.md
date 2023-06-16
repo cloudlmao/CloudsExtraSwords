@@ -1,21 +1,19 @@
-[h1]Clouds Extra Swords[/h1]
+# Clouds Extra Swords
 
 Welcome to Clouds Extra Swords, a mod that introduces a collection of powerful new swords for the melee class in Terraria! Designed to enhance your early game progression, this mod offers a variety of high-quality blades that will aid you in your battles before facing off against early-game bosses!.
 
 Experience the thrill of wielding new and unique swords, each with its own distinctive abilities and strengths. From swift and agile blades that unleash rapid strikes upon your enemies to mighty, heavy swords that deliver devastating blows, Clouds Extra Swords offers a wide range of options to suit your play-style.
 
+### Featues Will Include
 
-[h1]Features[/h1]
-[list]
-[*]A diverse selection of finely crafted swords for the melee class.
-[*]Exciting and varied gameplay mechanics for each sword, providing unique combat experiences.
-[*]Balanced progression to ease early game challenges and enrich your Terraria adventure.
-[*]Beautifully designed sprites and visual effects, enhancing the immersive experience.
-[*]Compatible with existing Terraria content and other mods for seamless integration.
-[/list]
+- A diverse selection of finely crafted swords for the melee class.
+- Exciting and varied gameplay mechanics for each sword, providing unique combat experiences.
+- Balanced progression to ease early game challenges and enrich your Terraria adventure.
+- Beautifully designed sprites and visual effects, enhancing the immersive experience.
+- Compatible with existing Terraria content and other mods for seamless integration.
 
 
-[b][u]Please Note: Clouds Extra Swords - Work in Progress[/u][/b]
-I want to inform you that this mod is currently in development and undergoing active updates. As a result, all content, including swords, mechanics, and balancing, is subject to change and refinement. I'm working on this project alone and at my own pace. Don't use this mod in its current state in any play-through unless testing or checking the mod out.
-
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2987173428] Update Notes [/url]
+**I want to inform you that this mod is currently in development and undergoing active updates. 
+As a result, all content, including swords, mechanics, and balancing, is subject to change and refinement.
+I'm working on this project alone and at my own pace.
+Don't use this mod in its current state in any play-through unless testing or checking the mod out.**
