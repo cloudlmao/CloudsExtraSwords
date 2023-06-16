@@ -1,0 +1,11 @@
+
+Mods: {
+	CloudsExtraSwords: {
+		Items: {
+			SwordOfBlood: {
+				DisplayName: Wombo Of Combos
+				Tooltip: Wombo-Combo your enemies to deal greater damange over-time.
+			}
+		}
+	}
+}
