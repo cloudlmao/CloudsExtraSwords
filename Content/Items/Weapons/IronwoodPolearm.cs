@@ -19,8 +19,8 @@ namespace CloudsExtraSwords.Content.Items.Weapons
 
         public override void SetDefaults()
         {
-            Item.shoot = ProjectileID.Starfury;
-            Item.shootSpeed = 10;
+            //Item.shoot = ProjectileID.Starfury;
+            //Item.shootSpeed = 10;
 
             Item.damage = 23;
             Item.DamageType = DamageClass.Melee;
@@ -56,12 +56,10 @@ namespace CloudsExtraSwords.Content.Items.Weapons
                     SpreadFireToNearbyEnemies(player, target);
                 }
 
-                if (modPlayer.useDebug)
-                    Main.NewText("Combo: " + modPlayer.GetComboCounter(), Color.Green);
+                Main.NewText("Combo: " + modPlayer.GetComboCounter(), Color.Green); // Print the combo counter in chat for now, later i will create an accessory that will show Combo information.
 
                 SpawnComboParticleEffect(target);
             }
-            base.OnHitNPC(player, target, damage, knockBack, crit);
         }
 
         private void ApplyComboEffects(Player player, NPC target)
@@ -88,7 +86,7 @@ namespace CloudsExtraSwords.Content.Items.Weapons
         {
             for (int i = 0; i < 10; i++)
             {
-                Dust.NewDust(target.position, target.width, target.height, DustID.Blood, 0f, -1f, Scale: 1.5f, newColor: Color.Red, Alpha: 100);
+                Dust.NewDust(target.position, target.width, target.height, DustID.Iron, 0f, -1f, Scale: 1.5f, Alpha: 100);
             }
         }
 
@@ -98,8 +96,6 @@ namespace CloudsExtraSwords.Content.Items.Weapons
             // Increase the damage based on the comboCounter value
             float damageIncrease = modPlayer.GetComboCounter() * CESModPlayer.ComboDamageMultiplier;
             damage += damageIncrease;
-
-            base.ModifyWeaponDamage(player, ref damage);
         }
 
         public override void AddRecipes()
